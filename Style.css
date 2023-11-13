@@ -1,0 +1,418 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+.A {
+  display: flex;
+  margin-right: 250px;
+  margin-left: 200px;
+  color: white;
+}
+.Aa {
+  text-decoration: underline;
+}
+.B {
+  list-style-type: none;
+  margin-right: 100px;
+  padding: 16px;
+  display: flex;
+  float: left;
+  text-decoration: solid;
+  margin-left: 143px;
+  font-size: larger;
+}
+.C {
+  list-style-type: none;
+  margin: 0;
+  display: flex;
+  float: left;
+  padding: 16px;
+  text-align: center;
+  justify-content: space-between;
+  transition: 1s ease;
+}
+.C a {
+  color: black;
+}
+.C a:hover {
+  color: #e82b2b;
+  scale: 1.2;
+  cursor: pointer;
+}
+.dropdown-menu a:hover {
+  background-color: #f36b6b;
+  transition: 0.8s;
+  opacity: 0.4;
+  border-radius: 0.3rem;
+}
+.D img:hover {
+  background-color: #f36b6b;
+  transition: 0.8s;
+  opacity: 0.4;
+  border-radius: 0.3rem;
+}
+#sh:hover {
+  transition: 0.8s;
+  opacity: 0.4;
+}
+.Holder {
+  border: none;
+  text-align: left;
+  padding: 2px;
+  width: 200px;
+  margin-left: 800px;
+}
+.D {
+  list-style-type: none;
+  margin: 0;
+  display: flex;
+  float: left;
+  padding: 16px;
+  text-align: center;
+  justify-content: space-between;
+  position: relative;
+}
+.nav-link dropdown-toggle {
+  color: aliceblue;
+}
+#bl {
+  height: 20px;
+  padding: 0.2px;
+  margin-top: 6px;
+  margin-left: 20rem;
+  position: absolute;
+}
+#bl1 {
+  height: 20px;
+  margin-top: 6px;
+  float: right;
+  position: absolute;
+  margin-left: 24rem;
+}
+#bl2 {
+  height: 20px;
+  margin-top: 6px;
+  float: right;
+  position: absolute;
+  margin-left: 27rem;
+}
+#bl3 {
+  height: 20px;
+  margin-top: 6px;
+  float: right;
+  position: absolute;
+  margin-left: 30rem;
+  /* i want to put a dropdown list of 
+     "manage my Account, My Order, My Cancellations, My reviews and Logout"*/
+}
+.D sup {
+  color: rgb(235, 28, 28);
+  position: absolute;
+  margin-left: 28rem;
+  padding-top: 1.7rem;
+  font-weight: bolder;
+}
+.p {
+  margin-left: 10.5rem;
+  float: flex;
+  position: relative;
+}
+.q {
+  border-right: solid;
+  float: left;
+  margin-top: -1rem;
+  border-color: hwb(0 95% 5%);
+  padding-right: 4rem;
+  margin-left: 9.5rem;
+}
+.q a {
+  margin-bottom: 9rem;
+  text-decoration: none;
+  color: black;
+  margin-bottom: 0;
+}
+.q a:hover {
+  color: rgb(219, 26, 81);
+  font-weight: 500;
+}
+.k {
+  border: none;
+  background-color: black;
+  position: relative;
+  float: right;
+  margin-top: 2rem;
+  margin-right: 3rem;
+  width: 60%;
+  height: 20.9rem;
+}
+#phn {
+  float: right;
+  height: 20rem;
+  padding: 1rem;
+}
+#app {
+  float: left;
+  padding-left: 4rem;
+  padding-top: 4rem;
+}
+#ip {
+  color: white;
+  padding-top: 4.7rem;
+  padding-left: 8rem;
+}
+#tx {
+  color: white;
+  font-size: 26px;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-weight: 900;
+  padding-left: 3rem;
+  padding-top: 1rem;
+}
+
+#sh {
+  color: white;
+  font-size: 16px;
+  text-underline-position: below;
+  padding-left: 4.5rem;
+  padding-top: 3rem;
+  text-decoration: underline;
+  position: relative;
+}
+#Ar {
+  padding-left: 10rem;
+  margin-top: -2rem;
+  position: absolute;
+}
+#bt {
+  margin-left: 18rem;
+  margin-top: -0.5rem;
+  position: absolute;
+}
+.dt {
+  width: 60px;
+  padding-top: 33rem;
+}
+#bu {
+  width: 1.4rem;
+  height: 3rem;
+  border-radius: 0.3rem;
+  border: none;
+  background-color: rgb(241, 23, 23);
+  margin-left: 9.5rem;
+}
+.x {
+  position: relative;
+  padding-left: 24rem;
+}
+.x1 a {
+  flex-direction: row;
+  padding-left: 3rem;
+  color: black;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 13px;
+  padding: 2rem;
+}
+.x2 {
+  font-size: 26px;
+  margin-top: -0.7rem;
+  margin-left: 7.5rem;
+}
+.xa a {
+  padding: 0.5rem;
+  font-weight: bolder;
+  font-size: larger;
+  text-decoration: none;
+  color: black;
+}
+#a1 {
+  margin-left: 1.4rem;
+  margin-right: 5.2rem;
+}
+#a4 {
+  margin-left: 0.5rem;
+  margin-right: 1rem;
+}
+#a5 {
+  margin-right: 0.7rem;
+}
+#a6 {
+  margin-left: 0.3rem;
+  margin-right: 1rem;
+}
+.xa img {
+  margin-left: 16.5rem;
+}
+.ite {
+  margin-left: 9.5rem;
+  margin-top: 2rem;
+}
+.ite img {
+  height: fit-content;
+  width: 66rem;
+}
+.view button {
+  margin-top: 1.5rem;
+  margin-left: 35rem;
+  width: 14rem;
+  border: none;
+  background-color: hwb(0 0% 0% / 0.694);
+  color: white;
+  height: 2.8rem;
+  border-radius: 0.1rem;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.view button:hover {
+  opacity: 0.6;
+  transition: 1.5s;
+}
+.buy button:hover {
+  opacity: 0.3;
+  transition: 1.5s;
+  background-color: #ff0000;
+}
+.Y button:hover {
+  opacity: 0.6;
+  transition: 1.5s;
+}
+.hr {
+  padding-top: 2rem;
+}
+.browse {
+  width: 60px;
+  padding-top: 2rem;
+}
+#bu {
+  width: 1.4rem;
+  height: 3rem;
+  border-radius: 0.3rem;
+  border: none;
+  background-color: rgb(241, 23, 23);
+  margin-left: 9.5rem;
+}
+.Y a {
+  margin-left: 9.5rem;
+  font-weight: bolder;
+  font-size: 26px;
+  text-decoration: none;
+  color: black;
+}
+.Y img {
+  margin-left: 40rem;
+}
+.items {
+  margin-top: 1rem;
+  margin-left: 8.8rem;
+}
+.items img {
+  padding: 0.8rem;
+  width: 10.3rem;
+}
+#v {
+  background-color: rgb(241, 23, 23);
+  margin-left: 37.5rem;
+  border: none;
+  width: 7rem;
+  color: white;
+  padding: 0.8rem;
+  border-radius: 0.3rem;
+}
+.best {
+  margin-top: 1.9rem;
+  margin-left: 8.8rem;
+}
+.best img {
+  padding: 0.5rem;
+  width: 15.3rem;
+}
+.T6 img {
+  width: 60.8rem;
+  margin-top: 5rem;
+  margin-left: 9.1rem;
+  height: 31.5rem;
+}
+.buy {
+  position: relative;
+}
+.buy button {
+  background-color: hwb(133 5% 7%);
+  color: white;
+  border: none;
+  width: 8.8rem;
+  padding: 0.94rem;
+  border-radius: 0.2rem;
+  margin-left: 12rem;
+  margin-top: -7.75rem;
+  position: absolute;
+}
+.ar1 {
+  position: relative;
+}
+.ar1 img {
+  margin-top: -2.5rem;
+  position: absolute;
+  margin-left: 63.8rem;
+}
+.ww {
+  position: relative;
+  width: 100%;
+  height: 70rem;
+}
+.w1 img {
+  width: 31.6rem;
+  height: 37.5rem;
+  position: absolute;
+  padding-left: 9.5rem;
+  margin-top: 2rem;
+}
+.w2 {
+  position: relative;
+}
+.w2 img {
+  margin-left: 34.5rem;
+  margin-top: 2rem;
+  position: absolute;
+  width: 35.6rem;
+  height: 17.75rem;
+}
+
+.w3 img {
+  margin-top: 21.73rem;
+  margin-left: 34.5rem;
+  position: absolute;
+  display: flex;
+}
+.w4 img {
+  margin-top: 21.73rem;
+  margin-left: 53rem;
+  position: absolute;
+  display: flex;
+}
+.w5 img {
+  margin-top: 30.2rem;
+  margin-left: 54.3rem;
+  position: absolute;
+  display: flex;
+}
+.f img {
+  margin-top: -30rem;
+  margin-left: 9rem;
+}
+.g img {
+  margin-left: 67rem;
+  margin-top: -3rem;
+}
+.pl img {
+  width: 100%;
+  height: 27.5rem;
+}
+.Go button {
+  border: solid;
+  width: 3rem;
+  height: 3rem;
+  margin-left: 67rem;
+  margin-top: -3.5rem;
+  position: absolute;
+  border: none;
+  opacity: 0.2;
+}
